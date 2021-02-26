@@ -6,7 +6,15 @@ type Length float64
 const (
 	// Metre represents a meter in the metric system. It is the base unit.
 	Metre Length = 1
-	// Micrometre is the smallest unit in this package.
+	// Attometre represents an attometre in the metric system (am). It is the smaller unit.
+	Attometre Length = 100000000
+	// Femtometre represents a femtometre (fm).
+	Femtometre Length = 10000000
+	// Picometre represents a picometre (pm).
+	Picometre Length = 1000000
+	// Nanometre represents a nanometre (nm).
+	Nanometre Length = 100000
+	// Micrometre represents a micrometre in the metric system.
 	Micrometre Length = 10000
 	// Millimetre represents a millimeter (mm).
 	Millimetre Length = 1000
