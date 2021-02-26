@@ -10,7 +10,7 @@ package main
 
 import (
     "fmt"
-    "github.com/dragonDScript/golang-metric-system"
+    "github.com/dragonDScript/golang-metric-system/length"
 )
 
 func main() {
